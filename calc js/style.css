@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+
+}
+body{
+ 
+    background-image: url(./img/11757.jpg);
+background-size: 100%;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.338);
+    width: 400px;
+    height: 400px;
+    margin-top: 105px;
+    margin-left: 35%;
+    border-radius: 15px;
+}
+
+input{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 19px;
+    border: 0.5px ;
+    border-radius: 10px;
+}
+
+button{
+    height: 40px;
+    width: 50px;
+    border: 0px solid;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.button-result{
+    height: 40px;
+    width: 100px;
+    border: 0.5px solid;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: rgb(152, 199, 119);
+}
+.button-result:hover{
+    background-color: rgb(90, 136, 57);
+    transition: 0.3s;
+}
+.button-symbol-1{
+    background-color: #dfc0ff;
+    transition: 0.3s;
+}
+.button-symbol-1:hover{
+    background-color: #c591f9;
+    transition: 0.3s;
+}
+.button-symbol-2{
+    background-color: #8fa4fd;
+    transition: 0.3s;
+}
+.button-symbol-2:hover{
+    background-color: #6681f9;
+}
+.button-symbol-3{
+    background-color: #43c9ff;
+    transition: 0.3s;
+}
+.button-symbol-3:hover{
+    background-color: #07b6fb;
+    transition: 0.3s;
+}
+.button-symbol-4{
+    background-color: #ff5353;
+    transition: 0.3s;
+}
+.button-symbol-4:hover{
+    background-color: #ff0000;
+    transition: 0.3s;
+}
